@@ -1,2 +1,6 @@
-package Repositories;public class FeedbackRepository {
-}
+package repositories;
+
+import entity.Feedback;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface FeedbackRepository extends JpaRepository<Feedback, Long> {}

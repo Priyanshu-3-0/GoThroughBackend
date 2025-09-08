@@ -1,7 +1,7 @@
-package Services;
+package com.example.demo.Services;
 
-import repositories.UserRepository;
-import entity.User;   // adjust package if different
+import com.example.demo.repositories.UserRepository;
+import com.example.demo.entity.User;   // adjust package if different
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -20,7 +20,7 @@ public class CustomUserDetailsService implements UserDetailsService {
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        entity.User user = userRepository.findByUsername(username)
+        User user = userRepository.findByUsername(username)
                 .orElseThrow(() -> new UsernameNotFoundException("User not found: " + username));
 
         return new org.springframework.security.core.userdetails.User(

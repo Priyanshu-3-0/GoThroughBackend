@@ -1,6 +1,6 @@
-package repositories;
+package com.example.demo.repositories;
 
-import entity.Offer;
+import com.example.demo.entity.Offer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Optional;
 

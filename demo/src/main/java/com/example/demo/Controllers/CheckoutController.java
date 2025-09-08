@@ -1,5 +1,10 @@
-package Controllers;
+package com.example.demo.Controllers;
 
+import com.example.demo.Services.OfferService;
+import com.example.demo.Services.OrderService;
+import com.example.demo.Services.PaymentService;
+import com.example.demo.Services.UserService;
+import com.example.demo.entity.User;
 import entity.*;
 import Services.*;
 import org.springframework.beans.factory.annotation.Autowired;

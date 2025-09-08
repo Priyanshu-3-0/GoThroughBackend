@@ -1,7 +1,6 @@
-package repositories;
+package com.example.demo.repositories;
 
-
-import entity.Payment;
+import com.example.demo.entity.Payment;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface PaymentRepository extends JpaRepository<Payment, Long> {}

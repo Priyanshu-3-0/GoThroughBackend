@@ -1,9 +1,9 @@
-package Controllers;
+package com.example.demo.Controllers;
 
 
-import entity.User;
-import Services.UserService;
-import security.JwtUtil;
+import com.example.demo.entity.User;
+import com.example.demo.Services.UserService;
+import com.example.demo.security.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.*;

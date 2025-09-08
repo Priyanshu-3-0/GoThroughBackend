@@ -1,8 +1,8 @@
-package Controllers;
+package com.example.demo.Controllers;
 
 
-import entity.Feedback;
-import repositories.FeedbackRepository;
+import com.example.demo.entity.Feedback;
+import com.example.demo.repositories.FeedbackRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;

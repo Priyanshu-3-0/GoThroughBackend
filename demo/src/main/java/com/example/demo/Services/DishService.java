@@ -1,7 +1,7 @@
-package Services;
+package com.example.demo.Services;
 
-import entity.Dish;
-import repositories.DishRepository;
+import com.example.demo.entity.Dish;
+import com.example.demo.repositories.DishRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

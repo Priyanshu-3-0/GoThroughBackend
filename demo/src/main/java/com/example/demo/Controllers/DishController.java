@@ -1,7 +1,7 @@
-package Controllers;
+package com.example.demo.Controllers;
 
-import entity.Dish;
-import Services.DishService;
+import com.example.demo.entity.Dish;
+import com.example.demo.Services.DishService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;

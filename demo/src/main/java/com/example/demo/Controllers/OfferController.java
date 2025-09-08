@@ -1,7 +1,7 @@
-package Controllers;
+package com.example.demo.Controllers;
 
-import entity.Offer;
-import Services.OfferService;
+import com.example.demo.entity.Offer;
+import com.example.demo.Services.OfferService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

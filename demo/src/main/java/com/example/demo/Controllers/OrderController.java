@@ -1,8 +1,9 @@
-package Controllers;
+package com.example.demo.Controllers;
 
 
+import com.example.demo.entity.Order;
 import entity.*;
-import Services.OrderService;
+import com.example.demo.Services.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;

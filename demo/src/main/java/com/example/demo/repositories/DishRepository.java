@@ -1,7 +1,6 @@
-package repositories;
+package com.example.demo.repositories;
 
-
-import entity.Dish;
+import com.example.demo.entity.Dish;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 

@@ -1,7 +1,8 @@
-package Services;
+package com.example.demo.Services;
 
-import entity.User;
-import repositories.UserRepository;
+import com.example.demo.entity.Role;
+import com.example.demo.entity.User;
+import com.example.demo.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -16,7 +17,7 @@ public class UserService {
 
     public User register(User user) {
         user.setPassword(passwordEncoder.encode(user.getPassword()));
-        user.setRole(user.getRole() == null ? entity.Role.USER : user.getRole());
+        user.setRole(user.getRole() == null ? Role.USER : user.getRole());
         return userRepository.save(user);
     }
 

@@ -10,6 +10,16 @@ public class Order {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    public String getTracking() {
+        return tracking;
+    }
+
+    public void setTracking(String tracking) {
+        this.tracking = tracking;
+    }
+
+    private String tracking;
+
     @ManyToOne
     private User user;
 

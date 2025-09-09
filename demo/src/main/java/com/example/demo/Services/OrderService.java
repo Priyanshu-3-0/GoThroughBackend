@@ -2,7 +2,7 @@ package com.example.demo.Services;
 
 import com.example.demo.entity.Order;
 import com.example.demo.entity.OrderStatus;
-import entity.*;
+import com.example.demo.entity.*;
 import com.example.demo.repositories.OrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

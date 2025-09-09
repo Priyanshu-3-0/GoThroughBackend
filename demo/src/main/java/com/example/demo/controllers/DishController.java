@@ -1,4 +1,4 @@
-package com.example.demo.Controllers;
+package com.example.demo.controllers;
 
 import com.example.demo.entity.Dish;
 import com.example.demo.Services.DishService;
